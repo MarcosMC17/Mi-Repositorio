@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+		<head>
+			<title>Plantilla</title>
+			<meta charset="UTF-8"/>
+		</head>
+		<body>
+		<form method="post" action="">
+		Solo las letras Ala.:<input type="text" name="caja1" pattern="Ala." title="Formulario">
+		<br/>
+		Solo SJK mas solo vocales mayusculas y minusculas:<input type="text" name="caja2" pattern="SJK[AEIOUaeiou]" title="Formulario">
+		<br/>
+		Solo SJK + todas las letras excepto las vocales en mayusculas<input type="text" name="caja3" pattern="SJK[^AEIOU]" title="Formulario">
+		<br/>
+		Solo las letras comprendidad esntre los intervalos establecidos, ñ mayuscula y minuscula y a acentuada mayuscula y minuscula:<input type="text" name="caja4" pattern="[A-Za-zÑñÁá]" title="Formulario">
+		<br/>
+		Solo las letras elegidad mas las cadenas de caracteres seleccionados:<input type="text" name="caja5" pattern="hola.(es|com|org)" title="Formulario">
+		<br/>
+		Solo hola con repetiones y hola con repetiones de a:<input type="text" name="caja6" pattern="hola*(hola)*" title="Formulario">
+		<br/>		
+		CP compuesto de 5 numeros de entre 0 y 9:<input type="text" name="caja7" pattern="[]{5}" title="Formulario">
+		<br/>
+		Una fecha:<input type="text" name="caja8" pattern="[0-9]" title="Formulario">
+		<br/>
+		<input type="reset" name="borrar" value="Borrar">
+		<input type="submit" name="enviar" value="Enviar">
+		</form>
+		</body>
+</html>

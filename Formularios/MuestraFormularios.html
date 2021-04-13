@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Fomulario</title>
+		<meta charset="UTF-8"/>
+	</head>
+	<body>
+		<h1>Formulario</h1>
+		<form method="get" action="archivo.php">
+			Nombre: <input type="text" name="nombre"/>
+			<br/>
+			Contraseña: <input type="password" name="clave"/>
+			<br/>
+			Caja Pequeña: <input type="text" name="cpequeña" size="8em" maxlength="10"/>
+			<br/>
+			Caja Bloqueada: <input type="text" name="cbloqueada" value="1" disabled/>
+			<br/>
+			Edad: <input type="number" name="edad" value="1" min="18" max="150"/>
+			<br/>
+			F. Nac: <input type="date" name="fnac" value="1"/>
+			<br/>
+			Email: <input type="email" name="email" />
+			<br/>
+			Intereses: <br/>
+			<input type="checkbox" name="musica"/> Musica <br/>
+			<input type="checkbox" name="cine"/> Cine <br/>
+			<input type="checkbox" name="deporte"/> Deporte <br/>
+			Sexo:<br/>
+			<input type="radio" name="sexo" value="hombre"/> Hombre<br/>
+			<input type="radio" name="sexo" value="mujer"/> Mujer <br/>
+			<br/>
+			Navegador: <input type="text" name="nav" list="navegadores"/>
+				<datalist id="navegadores">
+					<option value="IE" label="Internet Explorer">
+					<option value="firefox" label="Firefox">
+					<option value="ch" label="Chrome">
+				</datalist>
+			<br/>
+			Archivo:<input type="file" name="archivo" accept=".doc,.docx,.txt">
+			<br/>
+			<input type="submit" name="enviar" value="Enviar" required="">
+			<br/>
+			Color:<input type="color" name="color">
+			<br/>
+			Rango<input type="range" name="rango" min="200" max="1000" step="100">
+			<br/>
+			Provincia:<select name="color">
+				<option value="black">Negro</option>
+				<option value="blue" selected="">Azul</option>
+				<option value="red">Rojo</option>
+			<br/>
+			<textarea name="mensaje" id="mensaje" cols="20" rows="30"></textarea>
+			<br/>
+			
+			
+			
+			
+		</form>
+	</body>
+</html>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<f1_2021>
+    <escuderia>
+        <nombreEscuderia>Mercedes</nombreEscuderia>
+        <pilotos>
+        <piloto>Lewis Hamilton</piloto>
+        <piloto>Valtteri Bottas</piloto>
+        </pilotos>
+        <mundialesPilotos>9</mundialesPilotos>
+        <mundialesConstructores>7</mundialesConstructores>
+        <director>Toto Wolff</director>
+    </escuderia>
+    <escuderia>
+        <nombreEscuderia>Ferrari</nombreEscuderia>
+        <pilotos>
+        <piloto>Charles Leclerc</piloto>
+        <piloto>Carlos Sainz</piloto>
+        </pilotos>
+        <mundialesPilotos>15</mundialesPilotos>
+        <mundialesConstructores>16</mundialesConstructores>
+        <director>Mattia Binotto</director>
+    </escuderia>
+    <escuderia>
+        <nombreEscuderia>Red Bull</nombreEscuderia>
+        <pilotos>
+        <piloto>Max Verstappen</piloto>
+        <piloto>Sergio Pérez</piloto>
+        </pilotos>
+        <mundialesPilotos>4</mundialesPilotos>
+        <mundialesConstructores>4</mundialesConstructores>
+        <director>Christian Horner</director>
+    </escuderia>
+    <escuderia>
+        <nombreEscuderia>McLaren</nombreEscuderia>
+        <pilotos>
+        <piloto>Lando Norris</piloto>
+        <piloto>Daniel Ricciardo</piloto>
+        </pilotos>
+        <mundialesPilotos>12</mundialesPilotos>
+        <mundialesConstructores>8</mundialesConstructores>
+        <director>Andreas Seidl</director>
+    </escuderia>
+    <escuderia>
+        <nombreEscuderia>Alpine</nombreEscuderia>
+        <pilotos>
+        <piloto>Esteban Ocon</piloto>
+        <piloto>Fernando Alonso</piloto>
+        </pilotos>
+        <mundialesPilotos>0</mundialesPilotos>
+        <mundialesConstructores>0</mundialesConstructores>
+        <director>Laurent Rossi</director>
+    </escuderia>
+    <escuderia>
+        <nombreEscuderia>AlphaTauri</nombreEscuderia>
+        <pilotos>
+        <piloto>Pierre Gasly</piloto>
+        <piloto>Yuki Tsunoda</piloto>
+        </pilotos>
+        <mundialesPilotos>0</mundialesPilotos>
+        <mundialesConstructores>0</mundialesConstructores>
+        <director>Graham Watson</director>
+    </escuderia>
+    <escuderia>
+        <nombreEscuderia>Aston Martin</nombreEscuderia>
+        <pilotos>
+        <piloto>Sebastian Vettel</piloto>
+        <piloto>Lance Stroll</piloto>
+        </pilotos>
+        <mundialesPilotos>0</mundialesPilotos>
+        <mundialesConstructores>0</mundialesConstructores>
+        <director>Lawrence Stroll</director>
+    </escuderia>
+    <escuderia>
+        <nombreEscuderia>Alfa Romeo</nombreEscuderia>
+        <pilotos>
+        <piloto>Kimi Raikkonen</piloto>
+        <piloto>Antonio Giovinazzi</piloto>
+        </pilotos>
+        <mundialesPilotos>2</mundialesPilotos>
+        <mundialesConstructores>0</mundialesConstructores>
+        <director>Frederic Vasseur</director>
+    </escuderia>
+    <escuderia>
+        <nombreEscuderia>Haas</nombreEscuderia>
+        <pilotos>
+        <piloto>Mick Schumacher</piloto>
+        <piloto>Nikita Mazepin</piloto>
+        </pilotos>
+        <mundialesPilotos>0</mundialesPilotos>
+        <mundialesConstructores>0</mundialesConstructores>
+        <director>Guenther Steiner</director>
+    </escuderia>
+    <escuderia>
+        <nombreEscuderia>Williams Racing</nombreEscuderia>
+        <pilotos>
+        <piloto>George Russell</piloto>
+        <piloto>Nicholas Latifi</piloto>
+        </pilotos>
+        <mundialesPilotos>7</mundialesPilotos>
+        <mundialesConstructores>9</mundialesConstructores>
+        <director>Simon Roberts</director>
+    </escuderia>
+</f1_2021>

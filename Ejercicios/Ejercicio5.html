@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Ejercicio 5</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Preferencias</legend>
+        <div id="asignaturas">
+            <input type="checkbox" name="asignatura" value="asignaturaGeografia">Geografia</input>
+            <input type="checkbox" name="asignatura" value="asignaturaLengua">Lengua</input>
+            <input type="checkbox" name="asignatura" value="asignaturaMatematicas">Matemáticas</input>
+            <input type="checkbox" name="asignatura" value="asignaturaHistoria">Historia</input>
+        </div>
+        <div id="textArea1">
+            <textarea cols="56" rows="8"></textarea>
+        </div>
+
+        <div id="cuadrosTexto1">
+
+            <label for="dni">DNI:</label>
+            <input type="text" id="dni" name="dni"/>
+            <label for="dni">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"/>
+            <label for="dni">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos"/>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"/>
+
+        </div>
+        <div id="divFecha">
+
+            <label for="fecha">Elija una fecha:</label>
+            <input type="date" id="fecha" name="fecha"/>
+
+        </div>
+
+        <div id="divColor">
+
+            <label for="color">Elija un color:</label>
+            <input type="color" id="color" name="color"/>
+
+        </div>
+
+        <div id="divHora">
+
+            <label for="hora">Elija una hora:</label>
+            <input type="time" id="hora" name="hora"/>
+
+        </div>
+        
+        <div id="velocidad">
+
+            <input type="text" name="vel" list="velocidades"/>
+            <datalist id="velocidades">
+                <option value="1000_mbits" label="1000 Mbits" selected>
+                <option value="100_mbits" label="100 Mbits">
+            </datalist>
+
+        </div>
+
+        <div id="radioButtons1">
+
+            <input type="radio" value="lenguajePython" name="lenguaje" id="lenguajePython"/>
+            <label for="lenguajePython">Python</label>
+
+            <input type="radio" value="lenguajeHTML" name="lenguaje" id="lenguajeHTML"/>
+            <label for="lenguajeHTML">HTML</label>
+
+            <input type="radio" value="lenguajeVB" name="lenguaje" id="lenguajeVB"/>
+            <label for="lenguajePython">Visual Basic</label>
+
+            <input type="radio" value="lenguajeJava" name="lenguaje" id="lenguajeJava"/>
+            <label for="lenguajeJava">Java</label>
+
+        </div>
+
+        <div id="divFileChooser">
+
+            <label for="fileChooser">Elija un archivo:</label>
+            <input type="file" name="fileChooser" id="fileChooser"/>
+
+        </div>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Rellene las opciones siguientes</legend>
+        
+        <div id="radioButtons2">
+
+            <input type="radio" value="hardwareTarjetaAceleradora" name="hardware" id="hardwareTarjetaAceleradora"/>
+            <label for="hardwareTarjetaAceleradora">Tarjeta Aceleradora</label><br/>
+
+            <input type="radio" value="hardwareMonitorLED" name="hardware" id="hardwareMonitorLED"/>
+            <label for="hardwareMonitorLED">Monitor LED</label><br/>
+
+            <input type="radio" value="hardwareSSD" name="hardware" id="hardwareSSD"/>
+            <label for="hardwareSSD">SSD</label><br/>
+
+        </div>
+
+        <div id="cuadrosTexto2">
+
+            <label for="dni">DNI:</label>
+            <input type="text" id="dni2" name="dni"/>
+            <label for="dni">Nombre:</label>
+            <input type="text" id="nombre2" name="nombre"/>
+            <label for="dni">Apellidos:</label>
+            <input type="text" id="apellidos2" name="apellidos"/>
+            <label for="telefono">Telefono:</label>
+            <input type="text" id="telefono" name="telefono"/>
+
+        </div>
+
+        <div id="divColor2">
+
+            <label for="color2">Elija un color:</label>
+            <input type="color" id="color2" name="color"/>
+
+        </div>
+
+        <div id="asignaturas2">
+            <input type="checkbox" name="asignatura" value="asignaturaMatematicas">Matemáticas</input>
+            <input type="checkbox" name="asignatura" value="asignaturaHistoria">Historia</input>
+            <input type="checkbox" name="asignatura" value="asignaturaGeografia">Geografia</input>
+            <input type="checkbox" name="asignatura" value="asignaturaLengua">Lengua</input>
+        </div>
+
+        <div id="divFileChooser2">
+
+            <label for="fileChooser2">Elija un archivo:</label>
+            <input type="file" name="fileChooser" id="fileChooser2"/>
+
+        </div>
+
+        <div id="textArea2">
+            <textarea cols="57" rows="7"></textarea>
+        </div>
+
+        <div id="divHora2">
+
+            <label for="hora2">Elija una hora:</label>
+            <input type="time" id="hora2" name="hora"/>
+
+        </div>
+
+        <div id="lenguajes">
+
+            <input type="text" name="lenguaje" list="listaLenguajes"/>
+            <datalist id="listaLenguajes">
+                <option value="java" label="Java" selected>
+                <option value="python" label="Python">
+                <option value="html" label="HTML">
+                <option value="vb" label="Visual Basic">
+                
+            </datalist>
+
+        </div>
+
+
+    </fieldset>
+    
+</body>
+</html>

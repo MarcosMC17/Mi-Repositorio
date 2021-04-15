@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Etiquetas HTML y atributos</h1>
+        <p>En este ejercicio, repasaré la funcionalidad de algunas etiquetas HTML, sus caracteristicas y sus atributos</p>
+
+        <h3>Button</h3>
+        <p>La etiqueta button, crea un boton simple, por defecto rectangular con texto en su interior, permite la ejecucion de eventos como por ejemplo, enviar o borrar los datos de un formulario o muchas cosas mas si se combina con algun lenguaje de programacio como JavaScript</p>
+        <p>Es compatible (segun w3schools) con Chrome, Firefox, Edge, Safari y Opera. Ademas permite la introducción de etiquetas i, b, strong, br y img en su interior, cosa que no permite un boton creado con la etiqueta imput</p>
+        <p>Algunos de sus atributos son:</p>
+        <ul>
+            <li>Autofocus. Este atributo permite que el foco se situe sobre este botón al cargar la pagina.</li>
+            <li>Disabled. Si este atributo se encuentra en la declaracion del botón, este se mostrará pero se encontrará inutilizado.</li>
+            <li>Type. Este atributo especifica el tipo de botón, normal (para ejecución de eventos), reset (para resetear todos los campos del formulario), y sumbit (para enviar los datos del formulario)</li>
+            <li>Form. Este atributo basico de las etiquetas de formulario, especifica a que id de formulario debe hacer referencia si el tipo del botón es sumbit.</li>
+        </ul>
+
+        <p>Ejemplo de uso de la etiqueta button:</p>
+
+        <button type="button" onclick="alert('El boton funciona')">Haz click aqui para comprobar el funcionamiento del botón</button>
+
+        <h3>Img (Origen de HTML)</h3>
+        <p>La etiqueta img nos permite insertar imagenes en nuestras paginas web. Esta etiqueta requiere de 2 atributos, src y alt.</p>
+        <p>Es compatible (segun w3schools) con Chrome, Firefox, Edge, Safari y Opera. Permite la inserción en el interior de etiquetas a para así poder asignar un enlace a la imagen</p>
+        <!--<p>Algunso de sus atributos son:</p>
+        <ul>
+            <li>Alt. Este atributo requerido se basa en un texto corto y descriptivo del contenido de la imagen, de esa forma si la imagen no se encuentra disponible en la visualizacion de la web, ese texto sustituirá a la imagen.</li>
+            <li>Heigth y width. Especifican en alto y el ancho de la imagen respectivamente, por lo general en pixeles.</li>
+            <li>Src. Abreviatura de source, el ingles de fuente u origen, define la ruta en la que se deberia encontrar la imagen a mostrar, puede ser tanto una ruta absoluta o una relativa, y puede encontrarse tanto en local como en internet a traves de una URL</li>
+        </ul>-->
+
+        <p>Ejemplo de uso de la etiqueta img:</p>
+
+        <img src="https://cdn.topgear.es/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2017/09/coches-competicion-fernando-alonso_0.jpg?itok=zh6A9NUD" alt="Coche de F1" height="300"/>
+
+        <h3>Div (HTML 3.2)</h3>
+        <p>La etiqueta div nos da la posibilidad de crear contenedores, los cuales pueden variar de tamaño o posición gracias a CSS.</p>
+        <p>Es compatible (segun w3schools) con Chrome, Firefox, Edge, Safari y Opera. Puede contener cualquier tipo de etiqueta en su interior.</p>
+        
+        <p>Ejemplo de uso de la etiqueta div, con un borde en verde ya que por defecto es invisible:</p>
+
+        <div style="border:green solid 10px"  ><p>Este parrafo esta dentro de un div.</p></div>
+
+        <h3>Q (HTML 4.0)</h3>
+        <p>La etiqueta q sirve para crear citas a partir de texto plano.</p>
+        <p>Es compatible (segun w3schools) con Chrome, Firefox, Edge, Safari y Opera.</p>
+        
+        <p>Ejemplo de uso de la etiqueta q:</p>
+
+        <q>Todo parece adquirir importancia si va escrito entre comillas.</q>
+
+
+        <h3>Video (HTML 5.0)</h3>
+        <p>La etiqueta video nos permitirá insertar un video en nuestra pagina web.</p>
+        <p>Es compatible (segun w3schools) con Chrome, Firefox, Edge, Safari y Opera para los formatos de mp4 y WebM y Chrome,Firefox, Edge y Opera para el formato de ogg.</p>
+        
+        <p>Ejemplo de uso de la etiqueta video:</p>
+
+        <video width="320" height="240" controls>
+            <source src="nggyu.mp4" type="video/mp4">
+            Tu navegador no soporta video en formato mp4.
+        </video>
+
+    </body>
+</html>
